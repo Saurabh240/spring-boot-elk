@@ -1,0 +1,13 @@
+2024-02-26T22:09:54.570+05:30  INFO 9121 --- [main] com.codebinds.elk.ElkApplication         : Starting ElkApplication using Java 17.0.10 with PID 9121 (/home/saurabh/Project/SpringBoot/spring-boot-elk/target/classes started by saurabh in /home/saurabh/Project/SpringBoot/spring-boot-elk)
+2024-02-26T22:09:54.574+05:30  INFO 9121 --- [main] com.codebinds.elk.ElkApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-26T22:09:56.018+05:30  INFO 9121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-26T22:09:56.034+05:30  INFO 9121 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-26T22:09:56.034+05:30  INFO 9121 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-26T22:09:56.100+05:30  INFO 9121 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-26T22:09:56.101+05:30  INFO 9121 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2024-02-26T22:09:56.642+05:30  INFO 9121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-26T22:09:56.654+05:30  INFO 9121 --- [main] com.codebinds.elk.ElkApplication         : Started ElkApplication in 2.824 seconds (process running for 3.402)
+2024-02-26T22:50:50.179+05:30  INFO 9121 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-26T22:50:50.211+05:30  INFO 9121 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-26T22:50:50.311+05:30  INFO 9121 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 98 ms
+2024-02-26T22:50:50.537+05:30  INFO 9121 --- [http-nio-8080-exec-1] com.codebinds.elk.Controller             : Echo Triggered
